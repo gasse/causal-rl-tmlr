@@ -1,0 +1,10 @@
+__pycache__
+.DS_Store
+experiments/toy1/results
+experiments/toy1/plots
+experiments/toy2/results
+experiments/toy2/plots
+experiments/toy3/results
+experiments/toy3/plots
+experiments/toy4/results
+experiments/toy4/plots

@@ -1,0 +1,33 @@
+{
+    "training_schemes": ["int", "obs+int", "augmented"],
+
+    "model_latent_space_size": 32,
+    "model_loss_type": "nll",
+    "model_with_done": true,
+    "model_lr": 1e-3,
+    "model_n_epochs": 500,
+    "model_n_batches_per_epoch": 50,
+    "model_n_samples_per_batch": 32,
+    "model_patience": 10,
+
+    "exploration_noise": 0.5,
+    "nsamples_int_full_exploration": 20,
+
+    "agent_hidden_size": 32,
+    "agent_lr": 1e-3,
+    "agent_gamma": 1,
+    "agent_n_epochs_training": 100,
+    "agent_n_epochs_warmup": 1,
+    "agent_n_batches_per_epoch": 50,
+    "agent_n_samples_per_batch": 32,
+    "agent_critic_weight": 1,
+    "agent_entropy_bonus": 1e-3,
+    "agent_scale_returns": true,
+
+    "model_n_samples_evaluation": 10000,
+    "agent_n_samples_evaluation": 10000,
+
+    "nsamples_obs": 200,
+    "nsamples_int": [0, 5, 10, 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100]
+}
+

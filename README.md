@@ -1,18 +1,18 @@
 # Using Confounded Data in Latent Model-Based Reinforcement Learning
+Maxime Gasse, Damien Grasset, Guillaume Gaudron, Pierre-Yves Oudeyer
+
+[Openreview](https://openreview.net/forum?id=nFWRuJXPkU)
+
 
 ## Requirements
 
-All experiments can be reproduced in a conda environment with the following dependencies:
-```
-python=3.10.8
-pytorch=1.13.1
-numpy=1.22.3
-matplotlib=3.6.3
-gzip
-pickle
+All experiments can be reproduced using a conda environment:
+```sh
+conda env create -f conda-env.yml
+conda activate causal-rl
 ```
 
-# Toy problem 1 (door)
+## Toy problem 1 (door)
 
 This toy problem corresponds to the guiding example in the paper, and is provided for debugging purposes. It is configured in the following files:
 ```
@@ -50,7 +50,7 @@ experiments/
     results/
 ```
 
-# Toy problem 2 (tiger)
+## Toy problem 2 (tiger)
 
 The `tiger` problem from the paper. It is configured in the following files:
 ```
@@ -88,7 +88,7 @@ experiments/
     results/
 ```
 
-# Toy problem 3 (sloppy dark room)
+## Toy problem 3 (sloppy dark room)
 
 The `sloppy dark room` problem from the paper. It is configured in the following files:
 ```
@@ -128,7 +128,7 @@ experiments/
     results/
 ```
 
-# Toy problem 4 (hidden treasures)
+## Toy problem 4 (hidden treasures)
 
 The `hidden treasures` problem from the paper. It is configured in the following files:
 ```
